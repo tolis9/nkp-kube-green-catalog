@@ -1,0 +1,7 @@
+apiVersion: v1
+kind: Package
+metadata:
+  name: kube-green
+  annotations:
+    catalog.d2iq.io/display-name: Kube-green
+    catalog.d2iq.io/short-description: Save energy by shutting down unused Kubernetes resources
