@@ -1,0 +1,8 @@
+apiVersion: apps.kommander.d2iq.io/v1alpha3
+kind: Application
+metadata:
+  name: kube-green
+spec:
+  appRef:
+    name: kube-green
+    kind: HelmRelease
